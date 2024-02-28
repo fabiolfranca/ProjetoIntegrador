@@ -24,7 +24,7 @@ CREATE TABLE Setor (
 
 CREATE TABLE Equipamentos (
 	idEquipamento INT PRIMARY KEY AUTO_INCREMENT,
-    Equipamento VARCHAR(25),
+    Equipamento VARCHAR(20),
     QtdEquipamentos INT,
     idSoftware INT,
     FOREIGN KEY (idSoftware) REFERENCES Softwares(idSoftware)
